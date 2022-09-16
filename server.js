@@ -9,6 +9,9 @@ var server              = express();
 /************* view engine setup **************/
 server.set('views', path.join(__dirname, '/web'));
 
+
+
+
 server.set('view engine', 'ejs');
 server.engine('html', require('ejs').renderFile);
 

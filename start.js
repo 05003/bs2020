@@ -1,11 +1,11 @@
-'use strict';
+'use strict'; //정확히, 엄격하게 코드를 건들 것이다 라는 선언
 
 /************* include library **************/
 const http    = require('http');
 const express = require('express');
 const server  = express();
 
-const serverPort = 80;
+const serverPort = 80; //기본적인 서버 포트
 
 
 /************* Routing **************/

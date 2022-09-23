@@ -63,7 +63,7 @@ server.get('/99dan',  (req, res, next) => {
     let gugudan = {
         primary : 2,
         length : 9,
-        one : primary+1
+        one : primary + 1
     }
 
     if(req.query.primary !== null && req.query.primary !== undefined){
